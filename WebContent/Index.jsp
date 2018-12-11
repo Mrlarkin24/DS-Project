@@ -9,13 +9,23 @@
 </head>
 <body>
 <h1>Welcome to Larkin's<br>Car Hire Booking System</h1>
-<h3>Create Booking:</h3>
-<input type="submit" value="Create">
-<h3>View Booking:</h3>
-<input type="submit" value="View">
-<h3>Update Booking:</h3>
-<input type="submit" value="Update">
-<h3>Delete Booking:</h3>
-<input type="submit" value="Delete">
+
+
+<form action="Create.jsp">
+	<h3>Create Booking:</h3>
+	<input type="submit" value="Create">
+</form>
+<form action="View.jsp">
+	<h3>View Booking:</h3>
+	<input type="submit" value="View">
+</form>
+<form action="Update.jsp">
+	<h3>Update Booking:</h3>
+	<input type="submit" value="Update">
+</form>
+<form action="Delete.jsp">
+	<h3>Delete Booking:</h3>
+	<input type="submit" value="Delete">
+</form>
 </body>
 </html>
